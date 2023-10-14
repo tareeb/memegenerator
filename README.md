@@ -1,3 +1,20 @@
+## Meme Generator :
+
+This project allows you to create memes using well-known meme templates. It is essentially a clone of Imageflip, and the concept is inspired by Imageflip. 
+
+### Screenshots: 
+
+- **Select a Meme from the list of popular meme Templates**
+  
+![sc1](https://github.com/tareeb/memegenerator/assets/67794123/dd31f81d-e33f-4e0b-bbab-8b7c26ab7864)
+
+- **Create and Customize the Meme**
+  
+![sc2](https://github.com/tareeb/memegenerator/assets/67794123/46d3fb18-85d7-4aca-9303-aca6a5ec8591)
+
+- **Donwload with a single Click**
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
