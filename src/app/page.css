@@ -1,0 +1,15 @@
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 50px;
+  min-height: 80vh;
+}
+
+.card-container:hover .Card:not(:hover) {
+  transform: scale(0.95);
+  opacity: 0.9;
+}
+

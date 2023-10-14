@@ -1,0 +1,43 @@
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    height: 300px;
+    padding: 30px;
+    width: 400px;
+
+    background-color: #457b9d;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    color: white;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.Card h1{
+    font-size: 25px;
+    font-weight: 500;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Card:hover{
+    background-color: #a8dadc; 
+    border: 2px solid black;
+    color: black;
+}
+
+.Card:hover h1{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 450px) {
+    .Card{
+        width: 300px;
+        height: 200px;
+        text-align: center;
+    }
+}
+
